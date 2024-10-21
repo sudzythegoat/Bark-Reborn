@@ -1,6 +1,6 @@
 using static StupidTemplate.Menu.Main;
 
-namespace StupidTemplate.Mods
+namespace StupidTemplate.Menu
 {
     public class PhotonControl
     {
