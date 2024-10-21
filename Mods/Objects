@@ -1,0 +1,13 @@
+using static StupidTemplate.Menu.Main;
+
+namespace StupidTemplate.Mods
+{
+    internal class Objects
+    {
+        public static void Volcano() 
+        public static void ReturnHome()
+        {
+            buttonsType = 0;
+        }
+    }
+}
