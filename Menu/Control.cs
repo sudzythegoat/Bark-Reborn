@@ -9,5 +9,10 @@ namespace StupidTemplate.Mods
         {
             playerlis += player
         }
+        public int rpc = 4
+        public static void RemoveRpc()
+        {
+            PhotonNetwork.Disconnect();
+        }
     }
 }
