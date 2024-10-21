@@ -12,7 +12,7 @@ namespace StupidTemplate.Mods
             }
             if (PhotonControl.Rpc > 3f)
             {
-                PhotonNetwork.Remove();
+                PhotonControl.Remove();
             }
         }
     }
