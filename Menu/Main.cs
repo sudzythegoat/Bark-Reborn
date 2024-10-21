@@ -74,7 +74,7 @@ namespace StupidTemplate.Menu
                     // Pre-Execution
                         if (fpsObject != null)
                         {
-                            fpsObject.text = "FPS: " + Mathf.Ceil(1f / Time.unscaledDeltaTime).ToString();
+                            fpsObject.text = "Created by sudzythegoat";
                         }
 
                     // Execute Enabled mods
