@@ -11,7 +11,7 @@ namespace StupidTemplate.Mods
                 int playerCount = 0;
                 foreach (var player in PhotonNetwork.PlayerList)
                 {
-                    playerCount += 1;
+                    playerCount++;
                 }
                 NotifiLib.SendNotification($"Lobby: {PhotonNetwork.CurrentLobby} Name: {PhotonNetwork.Nickname} Player count: {playerCount}");
             }
